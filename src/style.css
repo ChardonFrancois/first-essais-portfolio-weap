@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+html{
+    font-size: 62.5%;
+}
+.navbar{
+    border-bottom: 1px solid black;
+}
+.placement-nav{
+    margin-right: 8rem;
+}
+
+.placement-accueil{
+    margin-top: 8rem;
+}
+.imgProfileAcc{
+    width: 30rem;
+}
+.placement-btn{
+    margin-left: 6rem;
+}
+.space-btn{
+    margin-left: 1.5rem;
+}
+#accueil{
+    min-height: 75rem;
+}
+.imgServices{
+    width: 12rem;
+    height: 10rem;
+}
+.h2-placement-angular{
+    margin-right: 2.5rem;
+}
+.img-size{
+    width: 12rem;
+    height: 12rem;
+}
+.titre-contact{
+    padding: 4rem 0 5rem 0;
+    margin-top: 10rem;
+}
+
+
+
+
+
+
+
+
+/* media nav bar */
+
+@media(max-width: 991px) {
+    #navbarToggler{
+        margin-left: 10rem;
+    }
+    .placement-angular{
+        margin-left: 2rem;
+    }
+    
+}
